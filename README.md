@@ -11,3 +11,7 @@ Etapas para rodar:
 
 
 Vídeo Demonstrativo:
+
+
+https://github.com/pedrocruz2/robot-htmx/assets/123777000/a1b8d4f6-6a6c-472b-b086-7c5cb62d855e
+
