@@ -17,11 +17,13 @@
         {% endfor %}
     </div>
     <div>
-        <button hx-post="/delete-logs" >Apagar Todos os Logs</button>
+        <button hx-get="/delete-logs"  hx-target="#results">Apagar Todos os Logs</button>
         {% if connected %}
-            <button hx-post="/move-up" >Mover Robô para Cima</button>
-            <button hx-post="/move-down" >Mover Robô para Baixo</button>
+            <button hx-get="/move-up" hx-target="#results" >Mover Robô para Cima</button>
+            <button hx-get="/move-down" hx-target="#results" >Mover Robô para Baixo</button>
         {% endif %}
+    </div>
+    <div id="results" hx-swap="innerHTML">
     </div>
 </body>
 </html>
